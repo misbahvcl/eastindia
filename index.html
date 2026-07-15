@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MyEastIndia | India Licensed Exporter of Fresh Fruits, Vegetables, Pulses &amp; Spices</title>
 <meta name="description" content="MyEastIndia is a Government of India Licensed Exporter of fresh fruits, vegetables, pulses and spices, offering zero-adulteration sourcing, cold-chain logistics and QA/QC consulting from Cochin, Trivandrum and Mumbai ports.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<meta property="og:title" content="MyEastIndia | India Licensed Exporter of Fresh Fruits, Vegetables, Pulses &amp; Spices">
+<meta property="og:description" content="MyEastIndia is a Government of India Licensed Exporter of fresh fruits, vegetables, pulses and spices, offering zero-adulteration sourcing, cold-chain logistics and QA/QC consulting from Cochin, Trivandrum and Mumbai ports.">
+<meta property="og:image" content="images/Shipping.jpeg">
+<meta property="og:type" content="website">
 <style>
   :root{
     --green-dark:#0d203d;
@@ -110,6 +115,10 @@
   .btn-primary:hover{background:#dbe4f0;}
   .btn-outline{border:1.5px solid var(--white);color:var(--white);}
   .btn-outline:hover{background:var(--white);color:var(--green-dark);}
+  .btn-whatsapp{border:1.5px solid var(--white);color:var(--white);display:inline-flex;align-items:center;gap:10px;}
+  .btn-whatsapp:hover{background:var(--white);color:var(--green-dark);}
+  .btn-whatsapp:hover svg{fill:var(--green-dark);}
+  .btn-whatsapp svg{width:20px;height:20px;fill:#fff;}
 
   /* ABOUT */
   .about{background:var(--white);}
@@ -276,10 +285,10 @@
 
   /* CONTACT */
   .contact{background:var(--white);}
-  .contact-info{max-width:640px;margin:0 auto;text-align:center;}
+  .contact-info{max-width:960px;margin:0 auto;text-align:center;}
   .contact-info h2{font-size:2rem;margin-bottom:16px;}
   .contact-info p{color:var(--muted);margin-bottom:36px;}
-  .info-row{display:flex;justify-content:center;gap:50px;flex-wrap:wrap;}
+  .info-row{display:flex;justify-content:center;gap:50px;flex-wrap:nowrap;}
   .info-item{display:flex;gap:14px;align-items:flex-start;text-align:left;}
   .info-item .ico{
     width:42px;height:42px;border-radius:50%;background:var(--cream);border:1px solid #dde5f0;
@@ -307,7 +316,7 @@
 
   @media(max-width:960px){
     .about-grid, .logistics-grid, .vm-grid{grid-template-columns:1fr;}
-    .info-row{flex-direction:column;align-items:center;gap:20px;}
+    .info-row{flex-direction:column;align-items:center;gap:20px;flex-wrap:wrap;}
     .service-grid{grid-template-columns:repeat(2,1fr);}
     .cap-grid{grid-template-columns:1fr;}
     .tech-grid{grid-template-columns:repeat(2,1fr);}
@@ -358,7 +367,10 @@
     <h1>Bridging Markets, Exporting Excellence</h1>
     <p>MyEastIndia sources, quality-checks and exports fresh fruits, vegetables, premium pulses and authentic spices from India to global B2B importers — with zero adulteration, zero pesticides, and total transparency.</p>
     <div class="hero-buttons">
-      <a href="#services" class="btn btn-outline">Explore Our Services</a>
+      <a href="https://wa.link/f7gj72" class="btn btn-whatsapp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2C6.478 2 2 6.478 2 12.004c0 1.833.483 3.6 1.398 5.14L2 22l4.98-1.373a9.968 9.968 0 0 0 5.024 1.375h.005c5.526 0 10.004-4.478 10.004-10.004C22 6.478 17.53 2 12.004 2zm0 18.184h-.004a8.15 8.15 0 0 1-4.155-1.14l-.298-.176-3.07.847.82-2.994-.194-.307a8.146 8.146 0 0 1-1.253-4.41c0-4.508 3.667-8.175 8.178-8.175a8.14 8.14 0 0 1 5.783 2.394 8.14 8.14 0 0 1 2.393 5.784c0 4.508-3.667 8.177-8.18 8.177z"/></svg>
+        Enquire Now
+      </a>
     </div>
   </div>
 </section>
@@ -367,7 +379,7 @@
 <section class="about" id="about">
   <div class="container about-grid">
     <div class="about-images">
-      <img src="images/Chikoo.jpg" alt="Fresh produce sourced from Indian farms">
+      <img src="images/Onion.jpeg" alt="Fresh produce sourced from Indian farms">
       <img src="images/Mango.png" alt="Export quality Indian mangoes">
       <img src="images/Pulses.jpg" alt="Premium Indian pulses">
     </div>
@@ -414,7 +426,7 @@
 <!-- LICENSE STRIP -->
 <div class="license-strip">
   <div class="container">
-    <span>&#127482;&#127475;</span>
+    <span>&#127470;&#127475;</span>
     <span><strong>Government of India Licensed Exporter</strong> &nbsp;|&nbsp; Authorized to export fresh produce, pulses &amp; spices to international B2B markets</span>
   </div>
 </div>
@@ -558,7 +570,7 @@
       </div>
     </div>
     <div class="logistics-img">
-      <img src="images/Pineapple.jpg" alt="Export logistics and packing">
+      <img src="images/Shipping.jpeg" alt="Export logistics and packing">
     </div>
   </div>
 </section>
